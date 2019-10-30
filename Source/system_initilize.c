@@ -24,6 +24,7 @@ void enable_systemclock()
 {
     /*Enable system clock configure RCC and RCC2 registers*/
 
+
     /*Enable Clock Gating control*/
     SYSCTL_RCGC2_R =(SYSCTL_RCGC2_UDMA |SYSCTL_RCGC2_GPIOF | SYSCTL_RCGC2_GPIOE | SYSCTL_RCGC2_GPIOD
                      |SYSCTL_RCGC2_GPIOC | SYSCTL_RCGC2_GPIOB | SYSCTL_RCGC2_GPIOA);
