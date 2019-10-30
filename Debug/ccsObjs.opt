@@ -1,0 +1,1 @@
+"./main.o" "./Source/system_initilize.o" -Wl,-T"../TM4C123GH6PM.lds" -Wl,-T"configPkg/linker.cmd" -Wl,--start-group -lgcc -lm -lnosys -lc -Wl,--end-group 
